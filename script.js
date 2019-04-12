@@ -1,16 +1,16 @@
 "use strict";
 
 //Завдання 1
-
+var a = +prompt('введите число', )
 function isNumberInRange(a){
     if( a > 0 && a < 10){
-        console.log('true')
+        return true
     } else{
-        console.log('false')
+        return false
     }
 };
 
-isNumberInRange(1);
+alert(isNumberInRange(a));
 
 //Завдання 2
 
